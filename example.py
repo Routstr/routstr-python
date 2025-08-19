@@ -16,7 +16,6 @@ def chat() -> None:
             model="meta-llama/llama-3.2-1b-instruct", messages=history
         )
         print(response.choices[0].message.content)
-        print(response.usage)
 
         history.append(ai_msg)
 

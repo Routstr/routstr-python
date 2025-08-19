@@ -1,5 +1,21 @@
 # Routstr Python SDK
 
+## Prerequisites
+
+Before using the Routstr Python SDK, you need to install and set up `cdk-cli`:
+
+1. Install `cdk-cli`:
+
+   ```bash
+   cargo install cdk-cli
+   ```
+
+2. Top up your default wallet with some balance (required for now, future updates will improve this):
+
+   ```bash
+   cdk-cli receive <token>
+   ```
+
 ## Usage
 
 ```python
@@ -28,5 +44,4 @@ def chat() -> None:
 
 if __name__ == "__main__":
     chat()
-
 ```
